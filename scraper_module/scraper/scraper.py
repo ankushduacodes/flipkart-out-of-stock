@@ -13,7 +13,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
     }
 
-url = "https://www.flipkart.com/samsung-galaxy-s20-cloud-pink-128-gb/p/itm8e467fc585444?pid=MOBFZXZ2N3QFFFNZ&lid=LSTMOBFZXZ2N3QFFFNZFEC7TN&marketplace=FLIPKART&srno=s_1_3&otracker=search&otracker1=search&fm=SEARCH&iid=40a457c2-225c-4dd7-b85d-a474ec17e9cd.MOBFZXZ2N3QFFFNZ.SEARCH&ppt=sp&ppn=sp&ssid=mxnnbl3fpc0000001611817107551&qH=16e264a8676e4e40"
+url = "https://www.flipkart.com/asus-vivobook-14-ryzen-7-octa-core-4700u-8-gb-512-gb-ssd-windows-10-home-m413ia-ek586t-thin-light-laptop/p/itm9bde1d5a8a463?pid=COMFSKF97GXJKYCP&lid=LSTCOMFSKF97GXJKYCPIF0NRS&marketplace=FLIPKART"
 
 def get_requests():
     response = requests.get(url=url, headers=headers)
