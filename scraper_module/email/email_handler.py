@@ -5,11 +5,8 @@ def send_email(message):
     port = 587  # For starttls
     smtp_server = "smtp.gmail.com"
     sender_email = os.getenv('email')
-    print(os.getenv('email'))
     receiver_email = os.getenv('reciever')
-    print(os.getenv('reciever'))
     password = os.getenv('password')
-    print(os.getenv('password'))
 
     context = ssl.create_default_context()
     with smtplib.SMTP(smtp_server, port) as server:
