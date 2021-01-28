@@ -11,6 +11,7 @@ def home():
     email_sent = False
     while(not email_sent):
         stock_status = scraper.get_stock_status()
+        print(stock_status)
         if stock_status == scraper.AVAILABLE_CONFIRMATION:
             email_handler.send_email("Product is now available")
             email_sent = True
@@ -24,4 +25,4 @@ def home():
 
 if __name__ == '__main__':
     #DEBUG is SET to TRUE. CHANGE FOR PROD
-    app.run(port=5000,debug=True)
+    app.run(port=9000, debug=True)
